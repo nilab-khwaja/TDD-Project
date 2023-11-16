@@ -6,8 +6,7 @@ describe Solver do
       expect(Solver.new.factorial(0)).to eq(1)
     end
 
-
-    it "return the correct factorial for a positive integer" do
+    it 'return the correct factorial for a positive integer' do
       expect(Solver.new.factorial(5)).to eq 120
     end
 
