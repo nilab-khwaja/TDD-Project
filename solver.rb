@@ -11,10 +11,12 @@ class Solver
       end
       return result
     end
-  end  
+  end
+
   def reverse(word)
     word.reverse
-  end  
+  end
+
   def fizzbuzz(n)
     if n % 3 == 0 && n % 5 == 0
       return 'fizzbuzz'
@@ -25,5 +27,5 @@ class Solver
     else
       return n.to_s
     end
-   end
+  end
 end
